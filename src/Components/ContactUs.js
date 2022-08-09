@@ -2,7 +2,17 @@ import React from 'react'
 
 function ContactUs() {
   return (
-    <div>ContactUs</div>
+    <div>
+    <h2>ContactUs</h2>
+    <form action="" className='signUpForm'>
+    Full Name:
+    <input type="text" placeholder="Full Name.."/>
+    Email:
+    <input type="text" placeholder="Email.."/>
+    Password:
+    <input type="text" placeholder="Password.."/>
+  </form>
+    </div>
   )
 }
 

@@ -7,7 +7,18 @@
 ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
   background-color: aquamarine;
   height: 7vh;
+}
+ul button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+ul button:hover{
+  cursor: pointer;
 }

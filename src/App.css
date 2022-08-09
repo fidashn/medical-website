@@ -22,3 +22,9 @@ ul button {
 ul button:hover{
   cursor: pointer;
 }
+
+.img {
+  background-image: url(../public/imgs/homePageBG.avif);
+  width: auto;
+  height: 100vh;
+}

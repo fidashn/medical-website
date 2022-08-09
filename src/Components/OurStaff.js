@@ -2,7 +2,10 @@ import React from 'react'
 
 function OurStaff() {
   return (
-    <div>OurStaff</div>
+    <div className='gallery'><h2>OurStaff</h2>
+    
+    
+    </div>
   )
 }
 

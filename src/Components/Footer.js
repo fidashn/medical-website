@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {GrLocation} from 'react-icons/gr';
 import {BsTelephoneInboundFill} from 'react-icons/bs';
 
@@ -8,11 +8,11 @@ function Footer() {
       <ul>
       <li className='address'>
       <GrLocation/>
-       8836 Cherry Road
-       Sterling, VA 20164.</li>
+      47 Harrison Drive
+      Hampton, VA 23666.</li>
       <li className='phone'>
       <BsTelephoneInboundFill />
-       845-322-2383</li>
+      845-322-2383</li>
       </ul>
     </>
   )

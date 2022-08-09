@@ -29,7 +29,6 @@ ul button:hover{
   width: 300px;
 }
 
-
 .logo-image{
   width: 46px;
   height: 46px;
@@ -48,7 +47,16 @@ width: 30%;
 height: 50px;
 }
 
-.img {
+h1 {
+color:black;
+font-size: 64px;
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translate(200px,460px);
+}
+
+.homeBg {
   background-image: url(../public/imgs/homePageBG.avif);
   width: auto;
   height: 100vh;

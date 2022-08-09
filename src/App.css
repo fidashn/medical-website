@@ -41,3 +41,10 @@ ul button:hover{
   width: auto;
   height: 100vh;
 }
+
+.sign-in-bg{
+  background-image: url(../public/imgs/signInBG.avif);
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}

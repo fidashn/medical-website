@@ -29,6 +29,25 @@ ul button:hover{
   width: 300px;
 }
 
+
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 30%;
+  overflow: hidden;
+  margin-top: -6px;
+  background-image: url(../public/favicon.ico);
+  background-size: cover;
+}
+
+.nav-items{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 30%;
+height: 50px;
+}
+
 .img {
   background-image: url(../public/imgs/homePageBG.avif);
   width: auto;

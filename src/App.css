@@ -90,3 +90,41 @@ transform: translate(200px,460px);
   justify-content: space-between;
   align-items: center;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+  align-items: center;
+  height: 500vh;
+  margin: 50px 0 50px 0;
+}
+
+.image1 {
+  background-image: url(../public/imgs/doctor1.avif);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}
+
+.image2 {
+  background-image: url(../public/imgs/doctor2.avif);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}
+
+.image3 {
+  background-image: url(../public/imgs/doctor3.avif);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}
+
+.image4 {
+  background-image: url(../public/imgs/doctor4.avif);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}

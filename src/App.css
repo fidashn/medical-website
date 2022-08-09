@@ -23,6 +23,12 @@ ul button:hover{
   cursor: pointer;
 }
 
+.btns-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
 .img {
   background-image: url(../public/imgs/homePageBG.avif);
   width: auto;

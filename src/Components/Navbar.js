@@ -7,8 +7,10 @@ function Navbar() {
       <li>Nav Item</li>
       <li>Nav Item</li>
       <li>Nav Item</li>
-      <button>Sign In</button>
+      <div className='btns-wrapper'>
       <button>Sign Up</button>
+      <button>Sign In</button>
+      </div>
       </ul>
       </div>
   )

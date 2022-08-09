@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: auto;
 }
 
 ul {
@@ -74,4 +75,18 @@ transform: translate(200px,460px);
   background-size: cover;
   width: auto;
   height: 100vh;
+}
+
+.location {
+  width: 30px;
+  height: 35px;
+  overflow: hidden;
+  background-image: url(../public/imgs/location.png);
+  background-size: cover;
+}
+
+.address, .phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

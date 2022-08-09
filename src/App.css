@@ -34,3 +34,10 @@ ul button:hover{
   width: auto;
   height: 100vh;
 }
+
+.sign-up-bg{
+  background-image: url(../public/imgs/signUpBG.avif);
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}

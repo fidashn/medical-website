@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div className='img'>
-      {/* <img src="../../public/imgs/homePageBG.avif" alt="HomePage" /> */}
+      <h1>Welcom to our </h1>
     </div>
   )
 }

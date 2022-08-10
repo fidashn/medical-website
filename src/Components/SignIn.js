@@ -3,7 +3,7 @@ import React from 'react'
 function SignIn() {
   return (
     <div className='sign-in-bg'>Sign In
-    <form action="" className='signUpForm'>
+    <form action="" className='signInForm'>
     Email:
     <input type="text" placeholder="Email.."/>
     Password:

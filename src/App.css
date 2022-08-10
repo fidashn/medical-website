@@ -108,12 +108,14 @@ transform: translate(200px,460px);
   height: 2000px;
 }
 
+
 .image2 {
   background-image: url(../public/imgs/doctor2.avif);
   background-size: cover;
   width: 1000px;
   height: 2000px;
 }
+
 
 .image3 {
   background-image: url(../public/imgs/doctor3.avif);
@@ -122,9 +124,17 @@ transform: translate(200px,460px);
   height: 2000px;
 }
 
+
 .image4 {
   background-image: url(../public/imgs/doctor4.avif);
   background-size: cover;
   width: 1000px;
   height: 2000px;
+}
+
+.contactUsForm, .signUpForm, .signInForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }

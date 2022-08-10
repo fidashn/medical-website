@@ -4,7 +4,7 @@ function ContactUs() {
   return (
     <div>
     <h2>ContactUs</h2>
-    <form action="" className='signUpForm'>
+    <form action="" className='contactUsForm'>
     Full Name:
     <input type="text" placeholder="Full Name.."/>
     Email:

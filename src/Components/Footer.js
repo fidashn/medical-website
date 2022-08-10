@@ -5,7 +5,7 @@ import {BsTelephoneInboundFill} from 'react-icons/bs';
 function Footer() {
   return (
     <>
-      <ul>
+      <ul className='footer'>
       <li className='address'>
       <GrLocation/>
       47 Harrison Drive

@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
       <>
-      <ul>
+      <ul className='navbar'>
       <li><a class="navbar-logo" href="/">
       <div class="logo-image">
       <img src="" class="img-fluid" alt=''/>

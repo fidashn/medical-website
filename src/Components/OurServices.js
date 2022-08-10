@@ -2,7 +2,7 @@ import React from 'react';
 
 function OurServices() {
   return (
-    <div>
+    <div className='services-wrapper'>
     <h2>Our Services</h2>
     In our clinic you can:
     <ul className='services'>

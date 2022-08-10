@@ -108,7 +108,7 @@ transform: translate(200px,460px);
 .image1 {
   background-image: url(../public/imgs/doctor1.avif);
   background-size: cover;
-  width: 1000px;
+  width: 95%;
   height: 2000px;
 }
 
@@ -116,7 +116,7 @@ transform: translate(200px,460px);
 .image2 {
   background-image: url(../public/imgs/doctor2.avif);
   background-size: cover;
-  width: 1000px;
+  width: 95%;
   height: 2000px;
 }
 
@@ -143,6 +143,10 @@ justify-content: center;
 align-items: center;
 }
 
+
+.services-wrapper {
+  background-color: #e5f1e3;
+}
 .services, .services li{
   display: flex;
   flex-direction: column;
@@ -162,7 +166,7 @@ align-items: center;
 .blood-test{
   background-image: url(../public/imgs/bloodTest.webp);
   background-size: cover;
-  width: 1000px;
+  width: 95%;
   height: 2000px;
 }
 
@@ -178,6 +182,6 @@ align-items: center;
 .video-chat{
   background-image: url(../public/imgs/video-chat.webp);
   background-size: cover;
-  width: 1000px;
+  width: 95%;
   height: 2000px;
 }

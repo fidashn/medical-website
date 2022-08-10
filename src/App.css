@@ -150,3 +150,34 @@ align-items: center;
   align-items: center;
   list-style: none;
 }
+
+.heart-beat{
+  background-image: url(../public/imgs/heartbeat.webp);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}
+
+
+.blood-test{
+  background-image: url(../public/imgs/bloodTest.webp);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}
+
+
+.online-appointment{
+  background-image: url(../public/imgs/online-appointment.webp);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}
+
+
+.video-chat{
+  background-image: url(../public/imgs/video-chat.webp);
+  background-size: cover;
+  width: 1000px;
+  height: 2000px;
+}

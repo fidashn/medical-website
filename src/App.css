@@ -104,7 +104,6 @@ transform: translate(200px,460px);
   background-image: url(../public/imgs/ourStaff-Bg.avif);
   background-size: cover;
   height: 500vh;
-  /* margin: 50px 0 50px 0; */
 }
 
 .image1 {
@@ -205,6 +204,3 @@ margin: 100px 0 100px 0;
   margin: 100px 0 0 0;
 }
 
-.gallery {
- 
-}

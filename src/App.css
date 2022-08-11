@@ -157,6 +157,10 @@ margin: 100px 0 100px 0;
 
 
 .services-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
   background-color: #e5f1e3;
 }
 

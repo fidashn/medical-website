@@ -2,8 +2,8 @@ import React from 'react'
 
 function ContactUs() {
   return (
-    <div>
-    <h2>ContactUs</h2>
+    <div className='contactUs-container'>
+    <h2 className='contactUs-title'>ContactUs</h2>
     <form action="" className='contactUsForm'>
     Full Name:
     <input type="text" placeholder="Full Name.."/>

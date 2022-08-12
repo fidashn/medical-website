@@ -3,7 +3,7 @@ import React from 'react'
 function SignUp() {
   return (
     <div className='sign-up-bg'> Sign Up
-      <form action="" className='signUpForm'>
+    <form action="" className='signUpForm'>
     Full Name:
     <input type="text" placeholder="Full Name.."/>
     Email:

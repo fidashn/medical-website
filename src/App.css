@@ -58,6 +58,7 @@ font-size: 64px;
 display: flex;
 justify-content: center;
 align-items: center;
+text-decoration: none;
 transform: translate(200px,460px);
 }
 
@@ -143,6 +144,11 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin: 100px 0 100px 0;
+width: 500px;
+height: 800px;
+background-color: rgb(8, 8, 8);
+opacity: 0.8;
+border-radius: 40px;
 }
 
 .contactUs-container {
@@ -206,5 +212,10 @@ margin: 100px 0 100px 0;
 
 .contactUs-title{
   margin: 100px 0 0 0;
+  text-decoration: none;
+}
+
+h2 {
+  text-decoration: none;
 }
 

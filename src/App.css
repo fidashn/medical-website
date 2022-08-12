@@ -151,6 +151,15 @@ opacity: 0.8;
 border-radius: 40px;
 }
 
+input[type=text] {
+  background-color: #3CBC8D;
+  color: white;
+  height: 40px;
+  width: 400px;
+  border-radius: 40px;
+  z-index: 1;
+}
+
 .contactUs-container {
   display: flex;
   flex-direction: column;

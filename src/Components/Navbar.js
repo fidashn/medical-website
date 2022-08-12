@@ -10,7 +10,14 @@ function Navbar() {
       </div>
       </a></li>
       <div className='nav-items'>
-      <li>Our Services</li>
+      <div class="dropdown">
+      <button class="dropbtn"><li>Our Services</li></button>
+      <div class="dropdown-content">
+      <a href="/">Link 1</a>
+      <a href="/">Link 2</a>
+      <a href="/">Link 3</a>
+  </div>
+</div>
       <li>Our Staff</li>
       <li>Contact Us</li>
       </div>

@@ -152,12 +152,16 @@ border-radius: 40px;
 }
 
 input[type=text] {
-  background-color: #3CBC8D;
+  background-color: aquamarine;
   color: white;
   height: 40px;
   width: 400px;
   border-radius: 40px;
   z-index: 1;
+}
+
+input[type=text]:focus {
+  border: 1px solid rgb(227, 224, 224);
 }
 
 .contactUs-container {
@@ -226,5 +230,41 @@ input[type=text] {
 
 h2 {
   text-decoration: none;
+}
+
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  border: 2px red solid;
+}
+
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aquamarine;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 

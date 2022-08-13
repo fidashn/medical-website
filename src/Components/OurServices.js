@@ -4,7 +4,7 @@ function OurServices() {
   return (
     <div className='services-wrapper'>
     <h2>Our Services</h2>
-    In our clinic you can:
+    <h3>In our clinic you can:</h3>
     <ul className='services'>
     <li>check your blood presure levels</li>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam recusandae vitae asperiores alias dolores temporibus ipsam perferendis id voluptatibus, fugiat sint ad expedita dolorum voluptatum ut deserunt explicabo voluptate nobis iure animi. Hic odio animi labore nostrum itaque nam repudiandae porro. Cumque beatae velit ullam aspernatur aliquam! Nobis, dolores alias?</p>

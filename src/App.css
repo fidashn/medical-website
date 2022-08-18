@@ -69,6 +69,8 @@ transform: translate(200px,460px);
 }
 
 .sign-up-bg{
+  display: flex;
+  justify-content: center;
   background-image: url(../public/imgs/signUpBG.avif);
   background-size: cover;
   width: auto;
@@ -145,7 +147,7 @@ justify-content: center;
 align-items: center;
 margin: 100px 0 100px 0;
 width: 500px;
-height: 800px;
+height: 500px;
 background-color: rgb(8, 8, 8);
 opacity: 0.8;
 border-radius: 40px;
@@ -155,7 +157,7 @@ input[type=text] {
   background-color: aquamarine;
   color: white;
   height: 40px;
-  width: 400px;
+  width: 300px;
   border-radius: 40px;
   z-index: 1;
 }
